@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.decomposition import PCA
 
-st.title("Classification Challenge")
+st.title("Classification Algorithms")
 
 st.write("""
          # Explore different classification algorithms and datasets

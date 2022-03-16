@@ -1,15 +1,31 @@
 mkdir -p ~/.streamlit/
 
 echo "\
-[theme]\
-primaryColor = '#F63366'\
-backgroundColor='#FFFFFF'\
-secondaryBackgroundColor= '#F0F2F6'\
-textColor = '#262730'\
-font ='sans serif'\
+[general]\n\
+email = \"prince.behordeun@gmail.com\"\n\
+" > ~/.streamlit/credentials.toml
+
+echo "
+[theme]\n\
+primaryColor = '#FF4B4B'\n\
+backgroundColor = '#FFFFFF'
+secondaryBackgroundColor = '#F0F2F6'
+textColor = '#31333F'
+font = 'sans serif'
 [server]\n\
 headless = true\n\
+enableCORS=false\n\
 port = $PORT\n\
-enableCORS = false\n\
-\n\
 " > ~/.streamlit/config.toml
+
+# echo "\
+# [theme]\n\
+# primaryColor = '#7792E3'\n\
+# backgroundColor = '#273346'
+# \n\
+# secondaryBackgroundColor = '#B9F1C0'
+# \n\
+# textColor = '#FFFFFF'
+# \n\
+# font = 'sans serif'\n\
+# " >> ~/.streamlit/config.toml

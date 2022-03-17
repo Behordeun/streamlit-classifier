@@ -109,8 +109,8 @@ st.markdown(f"""<p style="color:grey ; text-align:center;font-size:12px;">
 Copyright|Behordeun2022(c)
 """,unsafe_allow_html=True)
 st.markdown(f"""<p style="color:black; text-align:center;font-size:12px;">
-✉️ prince.behordeun@gmail.com
+✉️prince.behordeun@gmail.com
 """,unsafe_allow_html=True)
 st.markdown(f"""<p style="color:black; text-align:center;font-size:12px;">
-📞 +2348108316393
+📞+2348108316393
 """,unsafe_allow_html=True)
